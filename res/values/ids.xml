@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn" type="id"></item>
+    <item name="tv" type="id"></item>
+        <item name="tv2" type="id"></item> 
+            <item name="tv3" type="id"></item>  
+    <item name="mins" type="id"></item> 
+    <item name="plus" type="id"></item> 
+    <item name="del" type="id"></item> 
+</resources>

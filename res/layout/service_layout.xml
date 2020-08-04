@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+ >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+
+
+        >
+        
+    <Button 
+        android:id="@+id/bingtai_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="数据写入"
+        />
+    
+    <Button 
+        android:id="@+id/zhuantai_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="转台"
+        
+        />
+        
+    <Button 
+        android:id="@+id/cha_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="查台"
+        
+        />
+            
+            
+    <Button 
+        android:id="@+id/dingdan_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        
+        android:text="图片"
+        />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="60dp" />
+    
+</LinearLayout >
+</RelativeLayout>

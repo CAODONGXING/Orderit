@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+         <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="换台并台"
+
+        />
+    <LinearLayout
+    android:layout_width="match_parent"
+ 
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+
+    <ListView 
+        android:id="@+id/huantai_listview"
+    android:layout_width="0dp"
+    android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:background="#ebebea"
+
+        ></ListView> 
+    
+
+     <LinearLayout    
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:background="#d6d6d6"
+    >
+    <LinearLayout
+    android:layout_width="wrap_content"
+    
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+       <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="center">
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="原台号 :" 
+        />
+    <EditText 
+        android:id="@+id/yuantai_edit"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center" >
+        <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="现台号 :" 
+        />
+     <EditText 
+        android:id="@+id/xiantai_edit"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        />
+     
+       </LinearLayout> 
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+     >
+     <Button 
+    android:id="@+id/huantai_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:text="换台"  
+        android:textColor="#ffffff"
+    android:background="#929292"
+    />
+      <Button 
+    android:id="@+id/bingtai_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="并台"  
+    android:textColor="#ffffff"
+    android:background="#929292"
+    android:layout_marginLeft="30dp"
+    />     
+    </LinearLayout>
+    </LinearLayout>
+     </LinearLayout>
+</LinearLayout>
+    </LinearLayout>

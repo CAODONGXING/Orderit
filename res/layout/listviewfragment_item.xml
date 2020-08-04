@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    >
+    
+    <LinearLayout 
+        android:id="@+id/listviewitem1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+      
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+        <ImageView 
+            android:id="@+id/dish1"            
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            
+            />
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"          >
+           <LinearLayout
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+               
+                >
+               <TextView 
+        android:id="@+id/listitem_caiming1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鱼香肉丝1"
+                   />
+                 <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+               
+                >
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="RMB"
+        android:textColor="#f8960f"
+                    />
+         <TextView
+        android:id="@+id/listitem_jiage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="56"
+        android:textStyle="bold"
+        android:textColor="#f8960f"
+                    />
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/份"
+        android:textColor="#f8960f"
+                    />
+               </LinearLayout> 
+           </LinearLayout> 
+           <Button 
+               android:id="@+id/listviewadd_but1"
+               android:layout_width="33dp"
+               android:layout_height="33dp"  
+               android:layout_gravity="center"
+               android:layout_marginLeft="8dp"
+               android:background="@drawable/add"
+               />
+            
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+        <LinearLayout 
+        android:id="@+id/listviewitem2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        >
+        <ImageView 
+            android:id="@+id/dish2"
+            android:src="@drawable/ic_launcher"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            
+            />
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"  
+          >
+           <LinearLayout
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+               
+                >
+               <TextView 
+        android:id="@+id/listitem_caiming2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鱼香肉丝2"
+                   />
+         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+               
+                >
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="RMB"
+        android:textColor="#f8960f"
+                    />
+               <TextView
+        android:id="@+id/listitem_jiage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="26"
+        android:textColor="#f8960f"
+        android:textStyle="bold"
+                    />
+                        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/份"
+        android:textColor="#f8960f"
+                    />
+               </LinearLayout> 
+           </LinearLayout> 
+           <Button 
+               android:id="@+id/listviewadd_but2"
+               android:layout_width="33dp"
+               android:layout_height="33dp"  
+               android:layout_gravity="center"
+               android:layout_marginLeft="8dp"
+               android:background="@drawable/add"
+               />
+            
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+        
+            <LinearLayout 
+        android:id="@+id/listviewitem3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView 
+            android:id="@+id/dish3"
+            android:src="@drawable/ic_launcher"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            
+            />
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"  
+          >
+           <LinearLayout
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+               
+                >
+               <TextView 
+        android:id="@+id/listitem_caiming3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鱼香肉丝3"
+                   />
+               <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+               
+                >
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="RMB"
+        android:textColor="#f8960f"
+                    />
+               <TextView
+        android:id="@+id/listitem_jiage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#f8960f"
+        android:textStyle="bold"
+        android:text="26"
+                    />
+                <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/份"
+        android:textColor="#f8960f"
+                    />
+               </LinearLayout> 
+               
+           </LinearLayout> 
+           <Button 
+               android:id="@+id/listviewadd_but3"
+               android:layout_width="33dp"
+               android:layout_height="33dp"  
+               android:layout_gravity="center"
+               android:layout_marginLeft="8dp"
+               android:background="@drawable/add"
+               />
+            
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

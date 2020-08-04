@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/newleftback"
+    >
+    
+<ImageView 
+    android:id="@+id/logo_left"
+    android:layout_width="110dp"
+    android:layout_height="92dp"
+     android:background="@drawable/logo_beta"
+     android:layout_marginLeft="50dp"
+    />
+<LinearLayout    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    >
+   <ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:src="@drawable/user"
+    /> 
+   <LinearLayout    
+    android:layout_width="150dp"
+    android:layout_height="22dp"
+    android:layout_marginLeft="1dp" >
+<TextView 
+    android:id="@+id/fuwuyuan_left"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="服务员工号：" 
+    android:textColor="#ffffff" 
+    android:gravity="bottom"
+    />
+    </LinearLayout>
+<ImageView 
+    android:id="@+id/setting"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/setting"
+    />
+</LinearLayout>
+<TextView 
+    android:id="@+id/taishu_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="台 号：" 
+    android:textColor="#ffffff"
+    android:layout_marginLeft="8dp" 
+    />
+<TextView 
+    android:id="@+id/renshu_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="人 数："  
+    android:textColor="#ffffff"
+    android:layout_marginLeft="8dp"
+    />
+<TextView 
+    android:id="@+id/dingdanhao_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="订单号："  
+    android:textColor="#ffffff"
+    android:layout_marginLeft="8dp"
+    />
+<Button 
+    android:id="@+id/caiping_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" 菜品"
+    android:textColor="#ffffff" 
+    android:drawableLeft="@drawable/classify"
+    android:background="#00000000"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="10dp"
+    />
+<Button 
+    android:id="@+id/jiezhang_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" 结账"  
+    android:textColor="#ffffff"
+    android:drawableLeft="@drawable/money"
+    android:background="#00000000"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    />
+<Button
+    android:id="@+id/yidian_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" 已选" 
+    android:textColor="#ffffff" 
+    android:drawableLeft="@drawable/cart"
+    android:background="#00000000"
+    android:layout_marginLeft="50dp" 
+     />   
+    <Button
+    android:id="@+id/lishi_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" 历史"  
+    android:textColor="#ffffff"  
+    android:drawableLeft="@drawable/ordered"
+    android:background="#00000000"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="20dp"
+     />   
+    <Button
+    android:id="@+id/huantai_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" 改台"  
+    android:textColor="#ffffff"  
+    android:drawableLeft="@drawable/huantai"
+    android:background="#00000000"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="20dp"
+     />   
+
+</LinearLayout>

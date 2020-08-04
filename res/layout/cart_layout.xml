@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="购物车页"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        
+        android:layout_gravity="center"
+        />
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="#7e6b5a"
+    android:padding="10dp"
+    
+        >
+        <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="品名"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+    android:layout_marginLeft="10dp"
+
+            />
+         <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="130dp"
+    android:layout_marginRight="130dp"
+    android:text="单价"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+            />
+          <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="数量"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+            />
+                    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="130dp"
+    android:text="删除"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+            />
+        
+        
+    </LinearLayout>
+<ListView 
+    android:id="@+id/cart_listview"
+    android:layout_width="wrap_content"
+    android:layout_height="340dp"
+    android:background="#ebebea"
+    ></ListView>
+<TextView 
+    android:id="@+id/cartprice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textColor="#FF0000"
+    android:textSize="18sp"
+    android:text="总价 :0元"
+    
+    />
+<Button 
+    android:id="@+id/cartsubmit_but"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textColor="#ffffff"
+    android:text="下单"
+    />
+    
+    
+</LinearLayout>
